@@ -1,0 +1,15 @@
+zone "ties327.jyu.fi" {
+type master;
+file "/etc/bind/db.ties327.jyu.fi";
+allow-transfer {127.0.0.1;};
+};
+zone "10.168.192.in-addr.arpa" {
+type master;
+file "/etc/bind/db_rev1.ties327.jyu.fi";
+allow-transfer {127.0.0.1;};
+};
+zone "11.168.192.in-addr.arpa" {
+type master;
+file "/etc/bind/db_rev2.ties327.jyu.fi";
+allow-transfer {127.0.0.1;};
+};
